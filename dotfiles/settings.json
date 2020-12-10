@@ -1,0 +1,62 @@
+// Only add settings that deviate from the defaults
+{
+    "workbench.colorCustomizations": {
+        // Color of current find match
+        "editor.findMatchBorder": "#FFFF00",
+        // Color of non-selected find matches
+        "editor.findMatchHighlightBorder": "#FFFF00",
+        // Color when hovered or selected
+        "editor.selectionHighlightBorder": "#00FFFF",
+        // Color of ruler
+        "editorRuler.foreground": "#404040"
+    },
+
+    "editor.dragAndDrop": false,
+    "editor.find.seedSearchStringFromSelection": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [80, 100, 120],
+    "editor.wordWrap": "on",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.macOptionIsMeta": true,
+    "terminal.integrated.shell.osx": "/usr/local/bin/bash", // Homebrew bash
+    "window.title": "${rootPath}${separator}${activeEditorMedium} ${dirty}",
+    "workbench.activityBar.visible": false,
+    "workbench.settings.editor": "json",
+    // Opens default keybindings when invoked via command palette
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.settings.useSplitJSON": true,
+    "workbench.startupEditor": "none",
+
+    // eamodio.gitlens
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.advanced.telemetry.enabled": false,
+
+    // kaiwood.center-editor-window
+    "center-editor-window.threeStateToggle": true,
+
+    // ms-python.python
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.showStartPage": false,
+
+    // ryu1kn.partial-diff
+    "partialDiff.enableTelemetry": false,
+
+    // tyriar.sort-lines
+    "sortLines.sortEntireFile": true,
+
+    // yzhang.markdown-all-in-one
+    "markdown.extension.orderedList.autoRenumber": false,
+}

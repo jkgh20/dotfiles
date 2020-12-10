@@ -1,0 +1,102 @@
+[user]
+	name = jkgh20
+	email = jkgh20@users.noreply.github.com
+[color]
+	ui = true
+[core]
+	editor = vim
+[help]
+	autocorrect = -1
+[merge]
+	conflictstyle = diff3
+[push]
+	default = simple
+[alias]
+	a = add
+	aa = add -A
+	ae = add -e
+	af = add -f
+	ap = add -p
+
+	b = branch -v
+	bd = branch -D
+	bm = branch -m
+	br = branch -r
+	rv = remote -v
+
+	co = checkout
+	cob = checkout -b
+	com = checkout master
+	discard = checkout --
+
+	cp = cherry-pick
+	cpx = cherry-pick -x
+	cpa = cherry-pick --abort
+	cpc = cherry-pick --continue
+
+	cdf = clean -df
+	cdfx = clean -dfx
+
+	c = commit
+	ca = commit --amend --date=now
+	cc = commit -C
+	cf = commit --fixup
+	cm = commit -m
+	can = commit --amend --no-edit --date=now
+
+	d = diff --no-prefix
+	dc = diff --cached --no-prefix
+	d1 = diff HEAD~1 --no-prefix
+	d2 = diff HEAD~2 --no-prefix
+	d3 = diff HEAD~3 --no-prefix
+	dfiles = diff --name-only
+	files = show --name-only
+
+	fa = fetch --all --prune
+	ri = rebase -i
+	ria = rebase -i --autosquash
+	ra = rebase --abort
+	rc = rebase --continue
+
+	fom = fetch origin master
+	rom = rebase origin/master
+	rhom = reset --hard origin/master
+
+	g = grep --full-name --heading --break --line-number -C 3
+	gg = grep --full-name --heading --break --line-number -C 3 --no-index
+
+	l1 = log -1
+	l2 = log -2
+	l3 = log -3
+	l = log -20 --pretty=format:'%C(yellow)%h %C(red)%ad %C(blue)%an%C(green)%d %C(reset)%s' --date=local
+	ll = log --pretty=format:'%C(yellow)%h %C(red)%ad %C(blue)%an%C(green)%d %C(reset)%s' --date=local
+	ref = reflog --pretty=format:'%C(yellow)%h %C(red)%cd %C(reset)%gs' --date=local
+
+	p = push
+	po = push origin HEAD
+	pof = push --force-with-lease origin HEAD
+	pod = push -d origin
+
+	r = reset
+	rhead = reset HEAD
+	rhead1 = reset HEAD~1
+	rhead2 = reset HEAD~2
+	rhead3 = reset HEAD~3
+	rh = reset --hard
+	rhhead = reset --hard HEAD
+	rhhead1 = reset --hard HEAD~1
+	rhhead2 = reset --hard HEAD~2
+	rhhead3 = reset --hard HEAD~3
+	rs = reset --soft
+	rshead = reset --soft HEAD
+	rshead1 = reset --soft HEAD~1
+	rshead2 = reset --soft HEAD~2
+	rshead3 = reset --soft HEAD~3
+
+	sl = stash list --pretty=format:'%C(yellow)%h %C(red)%cd %C(reset)%s' --date=local
+	ss = stash save
+	sa = stash apply
+	sp = stash pop
+	ssp = stash show -p
+
+	s = status -s

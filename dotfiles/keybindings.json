@@ -1,0 +1,6 @@
+[
+    // Replaces workbench.action.zoomIn
+    { "key": "cmd+=",                 "command": "editor.action.fontZoomIn" },
+    // Replaces workbench.action.zoomOut
+    { "key": "cmd+-",                 "command": "editor.action.fontZoomOut" },
+]
